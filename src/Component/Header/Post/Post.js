@@ -17,6 +17,7 @@ import FavoriteIcon from '@material-ui/icons/Favorite';
 import ShareIcon from '@material-ui/icons/Share';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
+import Comments from '../Comments/Comments';
 
 
 
@@ -69,8 +70,8 @@ const Post = (props) => {
             <Card className={classes.root}>
                 <CardHeader
                     avatar={
-                        <Avatar aria-label="recipe" className={classes.avatar}>
-                            R
+                        <Avatar aria-label="recipe"  src='https://media-exp1.licdn.com/dms/image/C4D03AQEYijPq5pBubQ/profile-displayphoto-shrink_400_400/0?e=1605139200&v=beta&t=tk8q6rqUKFRt_lwcYz_cXnopA5d3sRx3cmk6ySGVMWQ' className={classes.avatar}>
+                            
           </Avatar>
                     }
                     action={
@@ -83,7 +84,7 @@ const Post = (props) => {
                 />
                 <CardMedia
                     className={classes.media}
-                    image="https://img.traveltriangle.com/blog/wp-content/uploads/2019/03/Cover-for-Waterfalls-In-Thailand.jpg"
+                    image="https://swikblog.com/wp-content/uploads/2017/06/World-Environment-Day-1-700x445.jpg"
                     title="Paella dish"
                 />
                 <CardContent>
@@ -116,7 +117,7 @@ const Post = (props) => {
                 </CardActions>
                 
             </Card>
-
+        
 
         </div>
 

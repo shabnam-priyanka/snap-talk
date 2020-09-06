@@ -29,7 +29,7 @@ import React, { useState, useEffect } from 'react';
            <h3>body:{id.body} </h3> */}
         
            {
-            comments.map(com => <h1>{com.name} {com.email} {com.body} key={com.id}</h1>)
+            comments.map(com => <h1>{com.name} {com.email} {com.body} {com.title}</h1>)
            }
             
          
